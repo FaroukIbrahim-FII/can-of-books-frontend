@@ -1,11 +1,34 @@
-# Start your own "Can of Books" App
+# Can of Books
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Author**: Farouk Ibrahim
+**Version**: 1.2.0 
 
-## What can books do?
+## Overview
+Can of Books is a project to be used as book library and it requires you to log into the webiste to use it.
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+## Getting Started
+* Create a React App.
+* Use the Auth0 application and domain.
+* Edit the React app the way you want.
 
-## Use this template
+## Architecture
+React, Auth0, Bootstrap, Node.js
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+## Change Log
+Finish lab11: 3:44 pm
+
+## Credit and Collaborations
+Rihan Foudeh
+
+## Time Estimates
+
+Name of feature: Creating an authanitcation login method.
+
+Estimate of time needed to complete: 30 min
+
+Start time: 2:40 pm
+
+Finish time: 3:44
+
+Actual time needed to complete: one hour
+
