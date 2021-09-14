@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 
 class Books extends Component {
     render() {
-        console.log(this.props.booksArr);
+        // console.log(this.props.booksArr);
         return (
             <div>
                 {/* <Carousel>
@@ -36,7 +36,7 @@ class Books extends Component {
                     ))}
                 </Carousel> */}
 
-                {/* {this.props.booksArr.map(item => {
+                {this.props.booksArr.map(item => {
                     return(
                     < Card style={{ width: '18rem' }} className='card'>
                         <Card.Body>
@@ -48,11 +48,14 @@ class Books extends Component {
                             Availability : {item.bookStatus}
                             </Card.Text>
                         </Card.Body>
+                        <Card.Footer>
+                        <Button variant="primary" type="submit" onClick={() => this.props.deleteBook(item._id)} >Delete</Button>
+                        </Card.Footer>
                     </Card >
                     )
-                })} */}
+                })}
 
-                <Carousel>
+                {/* <Carousel>
 
                     {this.props.booksArr.map(item => {
                         return (
@@ -71,7 +74,7 @@ class Books extends Component {
                             </Carousel.Item>
                         )
                     })}
-                </Carousel>
+                </Carousel> */}
 
             </div>
         );
