@@ -3,7 +3,7 @@ import { Modal, Form, Button } from 'react-bootstrap';
 
 
 
-class modalClass extends Component {
+class modalForm extends Component {
   render() {
     return (
       <>
@@ -52,4 +52,4 @@ class modalClass extends Component {
   }
 }
 
-export default modalClass;
+export default modalForm;
